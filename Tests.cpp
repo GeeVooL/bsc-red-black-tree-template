@@ -1,6 +1,11 @@
-//
-// Created by Michał Dziewulski on 30.04.2017.
-//
+/*
+* Name: Tests.cpp
+* Purpose: Implementation of test methods
+* Note: None of methods use assert function and all data has to be compared directly
+*       by programmer during program execution (I had no time to implement proper tests)
+* @Author: Michał Dziewulski
+* @Version: 1.0 03.05.2017
+*/
 
 #include "Tests.h"
 #include <iomanip>
@@ -145,7 +150,7 @@ void Tests::predecessorTestInt()
     std::cout << std::endl << treeInt.getKey(treeInt.predecessor(&treeInt.search(treeInt.getRoot(), 6))) << std::endl;
 }
 
-void Tests::mergeTestInt() //FAILED
+void Tests::mergeTestInt()
 {
     std::cout << "mergeTestInt" << std::endl;
     RBTree<int> treeInt;

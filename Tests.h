@@ -1,8 +1,10 @@
 /*
-* Name: tests.h
-* Purpose: Header file of a tests class for RBTRee class
+* Name: Tests.cpp
+* Purpose: Header of unit test class for RBTree.h
+* Note: None of methods use assert function and all data has to be compared directly
+*       by programmer during program execution (I had no time to implement proper tests)
 * @Author: Michał Dziewulski
-* @Version: 1.0 30.04.2017
+* @Version: 1.0 03.05.2017
 */
 
 #ifndef TESTS_H

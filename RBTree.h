@@ -1,6 +1,9 @@
-//
-// Created by Michał Dziewulski on 03.05.2017.
-//
+/*
+* Name: RBTree.h
+* Purpose: Single header file that contains template of Red-Black Tree
+* @Author: Michał Dziewulski
+* @Version: 1.0 03.05.2017
+*/
 
 #ifndef RBTREEINT_RBTREE_H
 #define RBTREEINT_RBTREE_H
